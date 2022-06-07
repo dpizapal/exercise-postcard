@@ -2,6 +2,10 @@ body {
 	background: black;
 	font-family: "Handlee", cursive;
 }
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
 .postcard {
 	background: white;
 	width: 400px;
@@ -14,6 +18,7 @@ body {
 .postcard-header img {
 	width: 50px;
 	height: 50px;
+	margin: 5px 5px 0 0;
 }
 .postcard-header h1 {
 	width: 350px;
